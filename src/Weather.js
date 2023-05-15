@@ -41,14 +41,16 @@ export default function Weather() {
     return (
       <div className="Container">
         {form}
+
         <ul>
+          <li>City: {city}</li>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
           <li>Wind: {weather.wind}km/h </li>
 
           <li>Humidity: {weather.humidity}% </li>
 
           <li>
-            <img src="weather.icon" alt={weather.description} />
+            <img src={weather.icon} alt={weather.description} />
           </li>
           <li>Description: {weather.description} </li>
         </ul>
