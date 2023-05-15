@@ -6,6 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
+.Container {
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #b9b8b8;
+  box-shadow: 10px 10px 20px #b9b8b8;
+  border-radius: 50px;
+  margin: 30px;
+  padding: 30px;
+}
+.Address,
+.SourceCode {
+  text-decoration: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -27,7 +40,6 @@
 .App-link {
   color: #61dafb;
 }
-
 
 @keyframes App-logo-spin {
   from {
