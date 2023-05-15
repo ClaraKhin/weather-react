@@ -43,7 +43,7 @@ export default function Weather() {
         {form}
 
         <ul>
-          <li>{city}</li>
+          <li>City: {city}</li>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
           <li>Wind: {weather.wind}km/h </li>
 
