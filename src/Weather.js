@@ -39,7 +39,7 @@ export default function Weather() {
 
   if (loaded) {
     return (
-      <div className="Container">
+      <div>
         {form}
 
         <ul>

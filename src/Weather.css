@@ -1,12 +1,4 @@
-.Container {
-  text-align: center;
-  box-sizing: border-box;
-  border: 1px solid #b9b8b8;
-  box-shadow: 10px 10px 20px #b9b8b8;
-  border-radius: 50px;
-  margin: 30px;
-  padding: 30px;
-}
+
 li {
   list-style: none;
 }
