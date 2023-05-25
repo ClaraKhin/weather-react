@@ -7,30 +7,26 @@ function App() {
   return (
     <div className="App">
       <div className="Container">
-        <h1>Check The Weather</h1>
-        <Weather />
+        <Weather defaultCity="Yangon" />
       </div>
-
-      <p>
-        Coded By
+      <footer>
+        This project was coded by{" "}
         <a
-          href="https://github.com/ClaraKhin"
-          className="Address"
-          target="blank"
+          href="https://portfoliokhin.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          {" "}
           Khin
         </a>{" "}
-      </p>
-      <p>
+        and is{" "}
         <a
           href="https://github.com/ClaraKhin/weather-react"
-          className="SourceCode"
-          target="blank"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Source Code
+          open-source
         </a>
-      </p>
+      </footer>
     </div>
   );
 }
