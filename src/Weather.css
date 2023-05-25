@@ -1,6 +1,7 @@
 .Weather {
   font-family: arial, sans-serif;
   border: 1px solid #dadde1;
+  box-sizing: border-box;
   padding: 26px;
   border-radius: 8px;
   color: rgb(94, 94, 94);
